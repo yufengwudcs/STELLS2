@@ -25,11 +25,10 @@ STELLS is a program for finding the maximum likelihood estimate of the species t
 
 Note: Files can be downloaded using "Save Link/Target As..." After downloading the softwares, you may need to change file access permissions (e.g. chmod u+x stells-linux).
 
-Current version: v. 2.1.0 (released at: September 23, 2016). Source code available (see below). Here is a list of files for the distribution of STELLS.
+Current version: v. 2.1.0.1 (released at: November 8, 2016). Source code available (see below). Here is a list of files for the distribution of STELLS.
 
-    stells-v2-1-0-linux32, executable compiled under Linux.
-    stells-v2-1-0-linux64, executable compiled under Linux 64 bits system.
-    stells-v2-1-0-mac, executable compiled for Mac.
+    stells-v2-1-0-1-linux64, executable compiled under Linux 64 bits system.
+    stells-v2-1-0-1-mac, executable compiled for Mac.
     User manual in PDF. Read this carefully before using STELLS.
     example-gene.trees, a simple gene tree example for sample input.
     example-dup-gene.trees, a simple gene tree example with multiple gene lineages per species.
@@ -37,4 +36,7 @@ Current version: v. 2.1.0 (released at: September 23, 2016). Source code availab
     example-10trees.gtrees, a larger example of gene trees with multiple gene lineages per population which demonstrates the usage of the -p option (pairwise population distance based inference, which runs much faster than the case of not using the -p option).
 
 
-In case you want to build from source code, download the source code in STELLSv2.1.0.tar.gz. Simply de-compress and type "make".
+In case you want to build from source code, download the source code in STELLSv2.1.0.1.tar.gz. Simply de-compress and type "make".
+
+* November 18, 2019
+I realized I forgot to upload a revised code to fix a small bug in v.2.1.0. Please use v.2.1.0.1 from now on.
